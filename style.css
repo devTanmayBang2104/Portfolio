@@ -1,0 +1,250 @@
+body {
+    font-family: 'Fira Code', monospace;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+  }
+  
+  .header {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .header h1 {
+    font-family: 'Fira Code', monospace;
+    font-size: 2.5em;
+    margin: 0;
+    letter-spacing: 2px;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 0;
+  }
+  
+  .hero {
+    background-color: #1a1a1a;
+    padding: 40px 0;
+    position: relative;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  
+  .about-me-section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .about-me-section h2 {
+    color: #343a40;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-me-content {
+    color: #6c757d;
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .portfolio-section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .project {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 30px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project:hover {
+    transform: scale(1.05);
+  }
+  
+  .project h3 {
+    color: #1a1a1a;
+    font-size: 1.8em;
+  }
+  
+  .project p {
+    color: #6c757d;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  .skills {
+    margin-top: 30px;
+  }
+  
+  .certifications,
+  .education,
+  .experience {
+    margin-top: 30px;
+  }
+  
+  .contact-section {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+  }
+  /* ... (previous styles) ... */
+  
+  .skills-section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .skills-section h2 {
+    color: #343a40;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .skill {
+    margin-bottom: 15px;
+  }
+  
+  /* ... (previous styles) ... */
+
+.progress-bar {
+    height: 20px;
+    background-color: #007bff;
+    border-radius: 10px;
+    margin-top: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 10px;
+    width: 0;
+    transition: width 1s ease-in-out;
+  }
+  
+  .percentage {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* ... (remaining styles) ... */
+  .about-me-section,
+.portfolio-section,
+.skills-section,
+.contact-section {
+    max-width: 100%; /* Change from 800px to 100% */
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.skills-section h2,
+.contact-section h2,
+.about-me-section h2,
+.portfolio-section h2 {
+    color: #343a40;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ... (previous styles) ... */
+
+.about-me-section h2,
+.portfolio-section h2,
+.skills-section h2,
+.certifications h2,
+.education h2,
+.experience h2,
+.contact-section h2 {
+    text-align: left;
+    margin-bottom: 20px; /* You can adjust the margin as needed */
+}
+
+/* ... (remaining styles) ... */
+/* ... (previous styles) ... */
+
+.about-me-content .profile-photo {
+    max-width: 20%; /* Ensures the photo is responsive */
+    border-radius: 10%; /* Makes it a circular photo, adjust as needed */
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+/* ... (remaining styles) ... */
+
